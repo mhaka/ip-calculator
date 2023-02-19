@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Subnets Generation</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/subnetsgen.js"></script>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="standardClass.html">Standard Class</a>
+        <a href="compareIP.html">Compare IP</a>
+        <a href="subnetsgen.html">Subnets Generation</a>
+    </div>
+    <table border="1">
+        <tr>
+            <th colspan="3">Subnets Generation</th>
+        </tr>
+        <tr>
+            <td colspan="2" id="td1">
+                IP Address: <br>
+                <input type='text' id="oct1" maxlength="3">.<input type="text" id="oct2" maxlength="3">.<input type="text" id="oct3" maxlength="3">.<input type="text" id="oct4" maxlength="3"> /<input type="text" id="ip2" maxlength="2">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                No. of subnets<br>
+                <input type="number" id="subnetsNo">
+            </td>
+            <td>
+                <button onclick="gjeneroSubnets()">Calculate</button>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

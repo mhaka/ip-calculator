@@ -1,0 +1,111 @@
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #e27d2b;
+  color: white;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  margin: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+table tr:hover {
+  background-color: #ddd;
+}
+
+button {
+  /* background-color: #0e0c0c; */
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+  /* margin: 3px 3px 3px 3px; */
+  color: #e27d2b;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #e27d2b;
+}
+
+button:hover{
+  background: #e27d2b;
+  color: white;
+}
+
+table {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border: 3px solid #e27d2b;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .topnav a {
+    color: #e27d2b;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+}
+
+.topnav a {
+  float: left;
+  color: #e27d2b;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #e27d2b;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #e27d2b;
+  color: white;
+}
+input {
+  padding: 4px;
+}
+/*index*/
+.index {
+  padding-top: 100px;
+  color: #e27d2b;
+  text-align: center;
+  font-size: large;
+  font-weight: 800;
+}
+.author {
+  color: #e27d2b;
+  text-align: center;
+  font-size: small;
+  font-weight: 800;
+}
